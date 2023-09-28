@@ -41,7 +41,9 @@ class MyApp extends StatelessWidget {
                 fontSize: 30,
                 fontWeight: FontWeight.bold)),
       ),
-      home: statefulLifeCycleLearnPage(),
+      home: statefulLifeCycleLearnPage(
+        message: 'Life Cycle Message',
+      ),
     );
   }
 }

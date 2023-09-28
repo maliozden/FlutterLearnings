@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 class statefulLifeCycleLearnPage extends StatefulWidget {
-  const statefulLifeCycleLearnPage({super.key});
+  const statefulLifeCycleLearnPage({super.key, required this.message});
+  final String message;
 
   @override
   State<statefulLifeCycleLearnPage> createState() =>
@@ -12,6 +13,10 @@ class _statefulLifeCycleLearnPageState
     extends State<statefulLifeCycleLearnPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(widget.message),
+      ),
+    );
   }
 }
