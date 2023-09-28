@@ -13,6 +13,7 @@ import 'package:secflutter/learn/stateful_learn.dart';
 import 'package:secflutter/learn/stateful_learn2.dart';
 import 'package:secflutter/learn/stateful_lifecycle_learn.dart';
 import 'package:secflutter/learn/stateless_learn.dart';
+import 'package:secflutter/learn/text_field_learn.dart';
 import 'package:secflutter/learn/text_learn.dart';
 import 'package:secflutter/learn/scaffold_learn.dart';
 import 'package:secflutter/learn/uplab_clone_try.dart';
@@ -41,9 +42,7 @@ class MyApp extends StatelessWidget {
                 fontSize: 30,
                 fontWeight: FontWeight.bold)),
       ),
-      home: statefulLifeCycleLearnPage(
-        message: 'Life Cycle Message',
-      ),
+      home: textFieldLearnPage(),
     );
   }
 }
