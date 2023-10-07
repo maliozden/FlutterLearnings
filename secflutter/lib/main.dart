@@ -1,6 +1,8 @@
 // ignore_for_file: unused_import
 
 import 'package:flutter/material.dart';
+import 'package:secflutter/demos/color_demos_view.dart';
+import 'package:secflutter/demos/color_life_cycle.dart';
 import 'package:secflutter/learn/app_bar_learn.dart';
 import 'package:secflutter/learn/button_learn.dart';
 import 'package:secflutter/learn/card_learn.dart';
@@ -42,7 +44,7 @@ class MyApp extends StatelessWidget {
                 fontSize: 30,
                 fontWeight: FontWeight.bold)),
       ),
-      home: textFieldLearnPage(),
+      home: ColorLifeCyclePage(),
     );
   }
 }
