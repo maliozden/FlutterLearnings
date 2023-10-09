@@ -23,8 +23,8 @@ class _colorDemosPageState extends State<colorDemosPage> {
 
   @override
   void didUpdateWidget(covariant colorDemosPage oldWidget) {
-    // TODO: implement didUpdateWidget
-    if (oldWidget.initialBackgroundColor != widget.initialBackgroundColor &&
+    super.didUpdateWidget(oldWidget);
+    if (_backgroundColor != widget.initialBackgroundColor &&
         widget.initialBackgroundColor != null) {
       _changeBackground(widget.initialBackgroundColor!);
     }

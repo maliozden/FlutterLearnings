@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-  import 'package:secflutter/main.dart';
+import 'package:secflutter/main.dart';
 
 class stackLearn extends StatelessWidget {
-   stackLearn({super.key});
+  stackLearn({super.key});
   final cardHeight = 100.0;
   @override
   Widget build(BuildContext context) {
@@ -16,10 +16,7 @@ class stackLearn extends StatelessWidget {
               children: [
                 Positioned.fill(
                   bottom: cardHeight / 2,
-                  child: Image.network(
-                    randomImg().imageUrl,
-                    fit: BoxFit.fill,
-                  ),
+                  child: randomImg(),
                 ),
                 Positioned(
                     bottom: 0,
@@ -63,9 +60,7 @@ class columnObject extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         Expanded(
-          child: Image.network(
-            randomImg().imageUrl,
-          ),
+          child: randomImg(),
         ),
         Padding(
             padding: EdgeInsets.symmetric(vertical: 10),
