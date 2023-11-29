@@ -11,6 +11,7 @@ import 'package:secflutter/learn/container_sized_box_learn.dart';
 import 'package:secflutter/learn/icon_learn.dart';
 import 'package:secflutter/learn/list_view_learn.dart';
 import 'package:secflutter/learn/listtile_learn.dart';
+import 'package:secflutter/learn/modelView_learn.dart';
 import 'package:secflutter/learn/navigation_learn.dart';
 import 'package:secflutter/learn/page_view_learn.dart';
 import 'package:secflutter/learn/stack_learn.dart';
@@ -18,6 +19,7 @@ import 'package:secflutter/learn/stateful_learn.dart';
 import 'package:secflutter/learn/stateful_learn2.dart';
 import 'package:secflutter/learn/stateful_lifecycle_learn.dart';
 import 'package:secflutter/learn/stateless_learn.dart';
+import 'package:secflutter/learn/tabbar_learn.dart';
 import 'package:secflutter/learn/text_field_learn.dart';
 import 'package:secflutter/learn/text_learn.dart';
 import 'package:secflutter/learn/scaffold_learn.dart';
@@ -48,7 +50,7 @@ class MyApp extends StatelessWidget {
                 fontSize: 30,
                 fontWeight: FontWeight.bold)),
       ),
-      home: NavigationLearnPage(),
+      home: modelViewLearnPage(),
     );
   }
 }
