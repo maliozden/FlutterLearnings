@@ -13,7 +13,7 @@ class _modelViewLearnPageState extends State<modelViewLearnPage> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    final user1 = PostModel()
+    final user1 = PostModel1()
       ..body = 'body'
       ..title = 'title';
     user1.userId = 23123;
