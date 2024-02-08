@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-
 class appBar_learn extends StatelessWidget {
   const appBar_learn({super.key});
   final String _title = 'Appbar Learn';
@@ -26,4 +25,11 @@ class appBar_learn extends StatelessWidget {
       ),
     );
   }
+}
+
+FloatingActionButton floatingActionButton(Function() f) {
+  return FloatingActionButton(
+    onPressed: f,
+    child: Icon(Icons.account_tree_rounded),
+  );
 }
